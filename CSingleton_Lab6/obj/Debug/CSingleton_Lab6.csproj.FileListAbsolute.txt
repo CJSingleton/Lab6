@@ -1,0 +1,11 @@
+C:\Users\cjsin\GC_Labs\CSingleton_Lab6\CSingleton_Lab6\obj\Debug\CSingleton_Lab6.csprojAssemblyReference.cache
+C:\Users\cjsin\GC_Labs\CSingleton_Lab6\CSingleton_Lab6\obj\Debug\CSingleton_Lab6.csproj.CoreCompileInputs.cache
+C:\Users\cjsin\GC_Labs\CSingleton_Lab6\CSingleton_Lab6\bin\Debug\CSingleton_Lab6.exe.config
+C:\Users\cjsin\GC_Labs\CSingleton_Lab6\CSingleton_Lab6\bin\Debug\CSingleton_Lab6.exe
+C:\Users\cjsin\GC_Labs\CSingleton_Lab6\CSingleton_Lab6\bin\Debug\CSingleton_Lab6.pdb
+C:\Users\cjsin\GC_Labs\CSingleton_Lab6\CSingleton_Lab6\bin\Debug\CenterCLR.XorRandomGenerator.dll
+C:\Users\cjsin\GC_Labs\CSingleton_Lab6\CSingleton_Lab6\bin\Debug\CenterCLR.XorRandomGenerator.pdb
+C:\Users\cjsin\GC_Labs\CSingleton_Lab6\CSingleton_Lab6\bin\Debug\CenterCLR.XorRandomGenerator.xml
+C:\Users\cjsin\GC_Labs\CSingleton_Lab6\CSingleton_Lab6\obj\Debug\CSingleton_Lab6.csproj.CopyComplete
+C:\Users\cjsin\GC_Labs\CSingleton_Lab6\CSingleton_Lab6\obj\Debug\CSingleton_Lab6.exe
+C:\Users\cjsin\GC_Labs\CSingleton_Lab6\CSingleton_Lab6\obj\Debug\CSingleton_Lab6.pdb

@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CenterCLR.XorRandomGenerator</name>
+    </assembly>
+    <members>
+        <member name="T:CenterCLR.XorRandomGenerator.SafeRandom">
+            <summary>
+            xor-shift based random generator.
+            </summary>
+            <remarks>
+            This class is thread-safed random number generator by xor-shift calculation.
+            http://en.wikipedia.org/wiki/Xorshift
+            If not require thread-safe, use Random class.
+            </remarks>
+        </member>
+        <member name="M:CenterCLR.XorRandomGenerator.SafeRandom.#ctor">
+            <summary>
+            Constructor.
+            </summary>
+            <remarks>
+            Seed value is internal tick count.
+            </remarks>
+        </member>
+        <member name="M:CenterCLR.XorRandomGenerator.SafeRandom.#ctor(System.Int32)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="seed">Random seed value.</param>
+        </member>
+        <member name="M:CenterCLR.XorRandomGenerator.SafeRandom.Next">
+            <summary>
+            Get next random value.
+            </summary>
+            <returns>32bit random value.</returns>
+        </member>
+        <member name="M:CenterCLR.XorRandomGenerator.SafeRandom.Next(System.Int32)">
+            <summary>
+            Get next random value.
+            </summary>
+            <param name="maxValue">Maximum value.</param>
+            <returns>32bit random value.</returns>
+        </member>
+        <member name="M:CenterCLR.XorRandomGenerator.SafeRandom.NextBytes(System.Byte[])">
+            <summary>
+            Get random values.
+            </summary>
+            <param name="buffer">Random value fill target.</param>
+        </member>
+        <member name="M:CenterCLR.XorRandomGenerator.SafeRandom.NextValues(System.Int32[])">
+            <summary>
+            Get random values.
+            </summary>
+            <param name="buffer">Random value fill target.</param>
+        </member>
+        <member name="M:CenterCLR.XorRandomGenerator.SafeRandom.Sample">
+            <summary>
+            Get next random value.
+            </summary>
+            <returns>Floating point value.</returns>
+        </member>
+        <member name="T:CenterCLR.XorRandomGenerator.XorRandom">
+            <summary>
+            xor-shift based random generator.
+            </summary>
+            <remarks>
+            This class is random number generator by xor-shift calculation.
+            http://en.wikipedia.org/wiki/Xorshift
+            If require thread-safe, use SafeRandom class.
+            </remarks>
+        </member>
+        <member name="M:CenterCLR.XorRandomGenerator.XorRandom.#ctor">
+            <summary>
+            Constructor.
+            </summary>
+            <remarks>
+            Seed value is internal tick count.
+            </remarks>
+        </member>
+        <member name="M:CenterCLR.XorRandomGenerator.XorRandom.#ctor(System.Int32)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="seed">Random seed value.</param>
+        </member>
+        <member name="M:CenterCLR.XorRandomGenerator.XorRandom.Next">
+            <summary>
+            Get next random value.
+            </summary>
+            <returns>32bit random value.</returns>
+        </member>
+        <member name="M:CenterCLR.XorRandomGenerator.XorRandom.Next(System.Int32)">
+            <summary>
+            Get next random value.
+            </summary>
+            <param name="maxValue">Maximum value.</param>
+            <returns>32bit random value.</returns>
+        </member>
+        <member name="M:CenterCLR.XorRandomGenerator.XorRandom.Next(System.Int32,System.Int32)">
+            <summary>
+            Get next random value.
+            </summary>
+            <param name="minValue">Minimum value.</param>
+            <param name="maxValue">Maximum value.</param>
+            <returns>32bit random value.</returns>
+        </member>
+        <member name="M:CenterCLR.XorRandomGenerator.XorRandom.NextValues(System.Int32[])">
+            <summary>
+            Get random values.
+            </summary>
+            <param name="buffer">Random value fill target.</param>
+        </member>
+        <member name="M:CenterCLR.XorRandomGenerator.XorRandom.NextBytes(System.Byte[])">
+            <summary>
+            Get random values.
+            </summary>
+            <param name="buffer">Random value fill target.</param>
+        </member>
+        <member name="M:CenterCLR.XorRandomGenerator.XorRandom.Sample">
+            <summary>
+            Get next random value.
+            </summary>
+            <returns>Floating point value.</returns>
+        </member>
+        <member name="M:CenterCLR.XorRandomGenerator.XorRandom.Sequence(System.Int32)">
+            <summary>
+            Generate random sequence.
+            </summary>
+            <param name="count">Number of random values.</param>
+            <returns>Random sequence.</returns>
+        </member>
+        <member name="M:CenterCLR.XorRandomGenerator.XorRandom.BytesSequence(System.Int32,System.Int32)">
+            <summary>
+            Generate random sequence.
+            </summary>
+            <param name="count">Number of random arrays.</param>
+            <param name="bytes">Bytes on array.</param>
+            <returns>Random sequence.</returns>
+        </member>
+        <member name="M:CenterCLR.XorRandomGenerator.XorRandom.ValuesSequence(System.Int32,System.Int32)">
+            <summary>
+            Generate random sequence.
+            </summary>
+            <param name="count">Number of random arrays.</param>
+            <param name="values">Values on array.</param>
+            <returns>Random sequence.</returns>
+        </member>
+    </members>
+</doc>
